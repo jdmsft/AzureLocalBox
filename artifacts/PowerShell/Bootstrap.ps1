@@ -143,6 +143,8 @@ Write-Host "Updating config placeholders with injected values."
 (Get-Content -Path $LocalBoxPath\LocalBox-Config.psd1) -replace '%staging-natDNS%', $natDNS | Set-Content -Path $LocalBoxPath\LocalBox-Config.psd1
 
 # Installing PowerShell Modules
+Write-Host "Install NuGet (required by PowerShellGet PowerShell module)..."
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Write-Host "Trusting PSGallery..."
 Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
 $modules = @("Az", "Az.ConnectedMachine", "Azure.Arc.Jumpstart.Common", "Azure.Arc.Jumpstart.LocalBox", "Microsoft.PowerShell.SecretManagement", "Pester")
