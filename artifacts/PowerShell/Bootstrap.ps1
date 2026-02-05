@@ -65,6 +65,12 @@ if ($vmAutologon -eq "true") {
 }
 
 #######################################################################
+## Enable AZERTY keyboard layout
+#######################################################################
+Write-Host "Enable AZERTY keyboard layout"
+Set-WinUserLanguageList -LanguageList FR-fr -Force
+
+#######################################################################
 ## Setup basic environment
 #######################################################################
 # Copy PowerShell Profile and Reload

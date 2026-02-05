@@ -84,7 +84,7 @@ var resourceTags = governResourceTags ? union(tags, {
     SecurityControl: 'Ignore'
 }) : tags
 
-var templateBaseUrl = 'https://raw.githubusercontent.com/${githubAccount}/azure_arc/${githubBranch}/azure_jumpstart_localbox/'
+var templateBaseUrl = 'https://raw.githubusercontent.com/${githubAccount}/AzureLocalBox/${githubBranch}/'
 var customerUsageAttributionDeploymentName = 'feada075-1961-4b99-829f-fa3828068933'
 
 module mgmtArtifactsAndPolicyDeployment 'mgmt/mgmtArtifacts.bicep' = {
