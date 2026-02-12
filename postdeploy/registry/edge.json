@@ -1,0 +1,14 @@
+[
+    {
+        "registryPath": "HKLM:SOFTWARE\\Policies\\Microsoft\\Edge",
+        "registryName": "HideFirstRunExperience",
+        "registryType": "DWORD",
+        "registryValue": "0x00000001"
+    },
+    {
+        "registryPath": "HKLM:SOFTWARE\\Policies\\Microsoft\\Edge",
+        "registryName": "PasswordManagerEnabled",
+        "registryType": "DWORD",
+        "registryValue": "0x00000000"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "registryPath": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Terminal Services",
+        "registryName": "fClientDisableUDP",
+        "registryType": "DWORD",
+        "registryValue": 1
+    }
+]

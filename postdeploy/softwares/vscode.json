@@ -1,0 +1,6 @@
+{
+    "name": "Visual Studio Code",
+    "installerUri": "https://aka.ms/win32-x64-system-stable",
+    "installerExtension": "exe",
+    "installerArguments": "/verysilent /norestart /mergetasks=!runcode"
+}

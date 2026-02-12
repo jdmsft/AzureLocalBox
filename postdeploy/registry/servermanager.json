@@ -1,0 +1,8 @@
+[
+    {
+        "registryPath": "HKLM:\\SOFTWARE\\Microsoft\\ServerManager",
+        "registryName": "DoNotPopWACConsoleAtSMLaunch",
+        "registryType": "DWORD",
+        "registryValue": 1
+    }
+]

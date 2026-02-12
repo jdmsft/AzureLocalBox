@@ -1,0 +1,14 @@
+[
+    {
+        "registryPath": "HKLM:\\Software\\Policies\\Microsoft\\Windows\\DataCollection",
+        "registryName": "AllowTelemetry",
+        "registryType": "DWORD",
+        "registryValue": 3
+    },
+    {
+        "registryPath": "HKLM:\\Software\\Policies\\Microsoft\\Windows\\DataCollection",
+        "registryName": "DisablePrivacyExperience",
+        "registryType": "DWORD",
+        "registryValue": 1
+    }
+]
